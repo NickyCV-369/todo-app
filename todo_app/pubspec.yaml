@@ -1,0 +1,27 @@
+name: todo_app
+description: Todo List Flutter Realtime Microservice
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  provider: ^6.1.2
+  socket_io_client: ^3.1.2
+  shared_preferences: ^2.3.2
+  flutter_slidable: ^4.0.0
+  flutter_local_notifications: ^19.4.0
+  intl: ^0.20.2
+  connectivity_plus: ^6.0.5
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
