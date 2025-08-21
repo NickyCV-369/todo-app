@@ -41,6 +41,7 @@ Dùng Node.js/FastAPI:
 
 Chạy server backend tại http://localhost:3000:
 cd todo_service
+npm install
 node server.js
 
 API endpoints:
